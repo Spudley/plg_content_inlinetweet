@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_INLINETWEET_NAME</name>
+	<version>1.0.0</version>
+	<creationDate>December 2016</creationDate>
+	<author>Simon Champion</author>
+	<authorEmail>simon@simonchampion.net</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>(C) 2016 Simon Champion</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>PLG_CONTENT_INLINETWEET_DESCRIPTION</description>
+
+	<files>
+		<filename>index.html</filename>
+		<filename plugin="inlinetweet">inlinetweet.php</filename>
+		<folder>assets</folder>
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_inlinetweet.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="defaultURL" type="url" description="PLG_CONTENT_INLINETWEET_DEFAULTURL_DESC" label="PLG_CONTENT_INLINETWEET_DEFAULTURL_LABEL" default="" />
+				<field name="defaultVia" type="text" description="PLG_CONTENT_INLINETWEET_DEFAULTVIA_DESC" label="PLG_CONTENT_INLINETWEET_DEFAULTVIA_LABEL" default="" />
+				<field name="defaultTags" type="text" description="PLG_CONTENT_INLINETWEET_DEFAULTTAGS_DESC" label="PLG_CONTENT_INLINETWEET_DEFAULTTAGS_LABEL" default="" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
