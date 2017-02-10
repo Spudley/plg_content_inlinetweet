@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_INLINETWEET_NAME</name>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<creationDate>December 2016</creationDate>
 	<author>Simon Champion</author>
 	<authorEmail>simon@simonchampion.net</authorEmail>
@@ -29,4 +29,7 @@
 			</fieldset>
 		</fields>
 	</config>
+    <updateservers>
+        <server type="extension" priority="2" name="Inline Tweet Updates">https://raw.githubusercontent.com/Spudley/plg_content_inlinetweet/master/update.xml</server>
+    </updateservers>
 </extension>
