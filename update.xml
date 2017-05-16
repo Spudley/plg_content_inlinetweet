@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 	<update>
-		<name>Inline Tweet</name>
+		<name>Content - Inline Tweet</name>
 		<description>Turns snippets of text on your site into tweetable link</description>
 		<element>inlinetweet</element>
 		<type>plugin</type>
